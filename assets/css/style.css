@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-body, .registration-body{
+    height: 100vh;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.login-container, .registration-container{
+    width: 900px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+}
+.login-container .left-container, .registration-container .registration-left-container{
+    background: #111111;
+    overflow: hidden;
+    padding: 40px 0 0 0;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    border-left: 10px;
+
+}
+.logo{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.login-container .right-container{
+    width: 60%;
+    padding: 6rem;
+}
+.login-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.input-field{
+    padding: 8px;
+}
+.login-button, .registration-button{
+    background-color: #212529;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-button:hover, .registration-button:hover{
+    color: #5CCCF1;
+}
+.link-description{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.link-register{
+    text-decoration: none;
+    color: #5CCCF1;
+    font-weight: 700;
+}
+.link-register:hover{
+    color: #111111;
+}
+
+.registration-right-container{
+    width: 60%;
+    padding: 3rem;
+}
+
+
+@media (max-width: 768px){
+    .login-container{
+        width: 700px;
+        display: block;
+    }
+    .login-container .left-container{
+        width: 100%;
+        height: 7rem;
+    }
+    .login-container .right-container{
+        width: 100%;
+    }
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.navbar-logo img{
+    width: 150px;
+}
+.content{
+    margin-top: 6rem;
+}
+.tbl-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.table-title{
+    font-weight: 700;
+}
+.add-button{
+    background-color: #212529;
+    border:none;
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.add-button:hover{
+    background-color: #212529;
+    color: #5CCCF1;
+    border:none;
+}
+.current-user-name{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.logout{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.logout:hover{
+    color:#5CCCF1;
+}
+#add-form{
+    padding: 1rem;
+}
+.save{
+    background-color: #212529;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 96%;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+.save:hover{
+    color: #5CCCF1;
+}
+.modal-title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.close{
+    border: none;
+    font-size: 1.75rem;
+    background: #212529;
+    color: #fff;
+}
+.table-title{
+    padding-top: 10px;
+    font-size: 38px;
+    font-weight: 900;
+}
+.table thead tr th{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.action-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.action-button form{
+    margin-left: 10px;
+}
+.update-button, .delete-button{
+    color:#fff;
+    background-color: #212529;
+}
+.update-button:hover, .delete-button:hover{
+    color: #5CCCF1;
+    background-color: #212529;
+    border: none;
+}
+.dataTables_paginate .paging_simple_numbers a{
+    text-decoration: none;
+    color:#212529;
+}
+.dataTables_wrapper  #table_filter{
+    margin-bottom: 20px;
+}
