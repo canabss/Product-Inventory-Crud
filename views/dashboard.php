@@ -29,7 +29,7 @@
                     <img src="../assets/images/logo.png" alt="Logo" />
                 </a>
                 <div class="row">
-                    <p class="current-user-name"><?php echo "User: ".$_SESSION['firstname']." ".$_SESSION['lastname']?><a class="logout" href="../controller/logout.php">Logout</a></p>
+                    <p class="current-user-name"><i class='fas fa-user'></i> <?php echo " ".$_SESSION['firstname']." ".$_SESSION['lastname']?><a class="logout" href="../controller/logout.php">Logout</a></p>
                 </div>
             </div>
         </nav>
