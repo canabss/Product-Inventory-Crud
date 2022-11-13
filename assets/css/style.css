@@ -256,9 +256,6 @@
         position: relative;
         justify-content: end;
     }
-    table {
-        height: 350px;
-    }
 
     table, thead, tbody, th, td, tr {
         display: block;
